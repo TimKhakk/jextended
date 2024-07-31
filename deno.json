@@ -1,4 +1,7 @@
 {
+	"name": "@hati/jextended",
+  "version": "0.1.0",
+  "exports": "./src/main.ts",
 	"tasks": {
 		"dev": "deno run --watch main.ts",
 		"format": "deno run -A npm:@biomejs/biome format --write . ",
